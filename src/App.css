@@ -1,0 +1,60 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #dbdbae;
+  padding: 15px; /*Da espaço para a parte de dentro*/
+  /*color: x; "para colocar mua cor no texto*/
+  text-align: center;
+}
+
+header h1 {
+  margin-top: 0;
+}
+
+.btn{
+  text-decoration: none;
+  color: black;
+  background-color: #ffffff;
+  padding: 10px, 20px;
+  border-radius: 35px;
+  /*text-transform: uppercase; "deixar maiusculo*/
+}
+
+.btn:hover {
+  background-color: #c4c4a8;
+}
+
+.container {
+  padding: 16px;
+  background-color: #ffffff; /*cor do fundo*/
+}
+
+section  {
+  background-color: #ffffff;
+  padding: 5px 16px 16px 16px;
+  border-radius: 5px; /**/
+  margin: 16px 0; /*aumenta para fora*/
+  box-shadow: 0 2px 4px rgb(0, 0, 0, 0.5);
+}
+
+.last {
+  margin-bottom: 70px;
+}
+
+h2 {
+  border-bottom: 2px solid #dbdbae;
+  padding-bottom: 8px;
+}
+
+footer {
+  background-color: #dbdbae;
+  padding: 5px;
+  text-align: center;
+  color: black;
+  position: fixed;
+  bottom: 0;
+
+}
